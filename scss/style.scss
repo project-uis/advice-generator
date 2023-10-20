@@ -121,9 +121,14 @@ body {
   }
   .main-section {
     &__content {
-      margin-inline: 15px;
+      margin-inline: 25px;
       h1 {
         font-size: 26px;
+      }
+    }
+    &__data {
+      blockquote {
+        font-size: 1.5rem;
       }
     }
     &__line {
