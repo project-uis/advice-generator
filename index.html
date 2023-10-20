@@ -9,20 +9,24 @@
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <meta name="author" content="Jade Bañares" />
     <link rel="stylesheet" href="./src/dist/style.css" />
-
-    <title>Advice generator app</title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+    <title>Advice Generator App</title>
   </head>
   <body>
     <main class="main-section">
       <section class="main-section__content">
-        <div class="main-section__data" id="myData"></div>
+        <div class="main-section__data" id="myData">
+          <h5>ADVICE #<span id="advice"></span></h5>
+          <blockquote id="quotes"></blockquote>
+        </div>
         <div class="main-section__line">
           <img src="./images/pattern-divider-desktop.svg" alt="" />
           <img src="./images/pattern-divider-mobile.svg" alt="" />
         </div>
         <div class="main-section__button">
-          <button>
+          <button id="btn">
             <img src="./images/icon-dice.svg" alt="" />
           </button>
         </div>
