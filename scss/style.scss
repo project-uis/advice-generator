@@ -51,12 +51,6 @@ body {
       padding-bottom: 30px;
       font-size: 1.5rem;
       font-weight: 600;
-      &::before {
-        content: " “";
-      }
-      &::after {
-        content: "” ";
-      }
     }
   }
   &__content {
